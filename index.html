@@ -3,12 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Clovis Plumbing Services | Licensed Plumbing in Clovis, CA</title>
-    <meta
-      name="description"
-      content="Clovis Plumbing Services provides residential plumbing repairs, leak repair, water heater installation, drain services, sewer and water line repair, gas line work, repiping, and fixture installation across Clovis, Fresno, Sanger and nearby Central Valley communities."
-    />
-    <meta name="theme-color" content="#0B3C6D" />
+    <title>Central Coast Plumbing Services | Plumbing in Santa Margarita, CA</title>
+    <meta name="description" content="Central Coast Plumbing Services provides commercial and residential plumbing repair, new construction, tankless conversions, water heater replacement, repiping, gas line service, remodels, and 24-hour response in Santa Margarita and nearby communities." />
+    <meta name="theme-color" content="#0D9488" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -16,121 +13,93 @@
           extend: {
             colors: {
               brand: {
-                navy: '#0B3C6D',
-                white: '#FFFFFF',
-                gray: '#E5E7EB',
+                teal: '#0D9488',
+                dark: '#1F2937',
+                coral: '#F97316',
+                light: '#F0FDFA',
               },
             },
             boxShadow: {
-              soft: '0 20px 45px -25px rgba(11, 60, 109, 0.35)',
+              soft: '0 25px 60px -30px rgba(13, 148, 136, 0.35)',
             },
           },
         },
       };
     </script>
     <style>
-      html {
-        scroll-behavior: smooth;
-      }
-      body {
-        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      }
-      .hero-overlay {
-        background: linear-gradient(90deg, rgba(11, 60, 109, 0.93) 0%, rgba(11, 60, 109, 0.72) 100%);
-      }
-      .fade-in {
-        animation: fadeIn 0.7s ease both;
-      }
-      @keyframes fadeIn {
-        from { opacity: 0; transform: translateY(16px); }
-        to { opacity: 1; transform: translateY(0); }
-      }
+      html { scroll-behavior: smooth; }
+      body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .hero-overlay { background: linear-gradient(90deg, rgba(31, 41, 55, 0.88) 0%, rgba(31, 41, 55, 0.70) 100%); }
+      .card-glow { box-shadow: 0 20px 45px -25px rgba(13, 148, 136, 0.35); }
     </style>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Plumber",
-        "name": "Clovis Plumbing Services",
-        "telephone": "+1-559-940-0890",
-        "email": "tod@clovisplumbingservices.com",
-        "areaServed": [
-          "Clovis",
-          "Fresno",
-          "Sanger",
-          "Central Valley"
-        ],
-        "url": "https://clovisplumbingservices.com/",
-        "description": "Licensed and insured residential plumbing service specializing in repairs, installations, drain services, sewer and water line repair, and plumbing remodeling in Clovis and surrounding Central Valley communities."
+        "name": "Central Coast Plumbing Services",
+        "telephone": "+1-805-215-7296",
+        "email": "ccps.harrington@aol.com",
+        "areaServed": ["Santa Margarita", "San Luis Obispo County", "Nearby Central Coast communities"],
+        "url": "https://centralcoastplumbingservices.com/",
+        "description": "Family-owned plumbing company offering residential and commercial plumbing service, emergency response, tankless conversions, water heater replacement, repiping, gas lines, and remodels."
       }
     </script>
   </head>
   <body class="bg-white text-slate-800 antialiased">
     <header class="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
       <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        <a href="#top" class="flex items-center gap-3 text-lg font-semibold tracking-tight text-brand-navy">
-          <span class="flex h-11 w-11 items-center justify-center rounded-full bg-brand-navy text-sm font-bold text-white">CPS</span>
+        <a href="index.html" class="flex items-center gap-3 text-lg font-semibold tracking-tight text-brand-dark">
+          <span class="flex h-11 w-11 items-center justify-center rounded-full bg-brand-teal text-sm font-bold text-white">CC</span>
           <span class="leading-tight">
-            <span class="block text-base font-semibold">Clovis Plumbing Services</span>
-            <span class="block text-xs font-medium text-slate-500">Licensed • Insured • Family Owned</span>
+            <span class="block text-base font-semibold">Central Coast Plumbing Services</span>
+            <span class="block text-xs font-medium text-slate-500">24/7 Emergency • Family Owned Since 2006</span>
           </span>
         </a>
         <nav class="hidden items-center gap-6 text-sm font-medium text-slate-700 md:flex">
-          <a href="#services" class="transition hover:text-brand-navy">Services</a>
-          <a href="#about" class="transition hover:text-brand-navy">About</a>
-          <a href="#contact" class="transition hover:text-brand-navy">Contact</a>
+          <a href="index.html#services" class="transition hover:text-brand-teal">Services</a>
+          <a href="services.html" class="transition hover:text-brand-teal">Detailed Services</a>
+          <a href="index.html#contact" class="transition hover:text-brand-teal">Contact</a>
         </nav>
-        <a href="tel:+15599400890" class="hidden rounded-full bg-brand-navy px-4 py-2.5 text-sm font-semibold text-white shadow-soft transition hover:bg-slate-800 md:inline-flex">
-          Call Now
-        </a>
+        <a href="tel:+18052157296" class="hidden rounded-full bg-brand-teal px-4 py-2.5 text-sm font-semibold text-white shadow-soft transition hover:bg-teal-700 md:inline-flex">Call Now</a>
         <button id="menuBtn" class="rounded-full border border-slate-300 p-2 text-slate-700 md:hidden" aria-label="Open menu">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
         </button>
       </div>
       <div id="mobileMenu" class="hidden border-t border-slate-200 bg-white px-4 py-4 md:hidden">
         <div class="flex flex-col gap-3 text-sm font-medium text-slate-700">
-          <a href="#services" class="rounded px-2 py-2 hover:bg-slate-50">Services</a>
-          <a href="#about" class="rounded px-2 py-2 hover:bg-slate-50">About</a>
-          <a href="#contact" class="rounded px-2 py-2 hover:bg-slate-50">Contact</a>
-          <a href="tel:+15599400890" class="rounded-full bg-brand-navy px-4 py-2.5 text-center font-semibold text-white">Call (559) 940-0890</a>
+          <a href="index.html#services" class="rounded px-2 py-2 hover:bg-slate-50">Services</a>
+          <a href="services.html" class="rounded px-2 py-2 hover:bg-slate-50">Detailed Services</a>
+          <a href="index.html#contact" class="rounded px-2 py-2 hover:bg-slate-50">Contact</a>
+          <a href="tel:+18052157296" class="rounded-full bg-brand-teal px-4 py-2.5 text-center font-semibold text-white">Call (805) 215-7296</a>
         </div>
       </div>
     </header>
 
-    <main id="top">
-      <section class="relative overflow-hidden bg-slate-900 text-white">
-        <img
-          src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1600&q=80"
-          alt="Licensed plumber working on a home plumbing repair"
-          class="absolute inset-0 h-full w-full object-cover"
-        />
+    <main>
+      <section class="relative overflow-hidden bg-slate-950 text-white">
+        <img src="/images/tankless-install.jpg" alt="Professional Rinnai tankless water heater installation with copper piping" class="absolute inset-0 h-full w-full object-cover" />
         <div class="hero-overlay absolute inset-0"></div>
-        <div class="relative mx-auto grid max-w-7xl gap-10 px-4 py-20 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:px-8 lg:py-28">
-          <div class="fade-in max-w-2xl">
-            <p class="mb-4 inline-flex rounded-full border border-white/20 bg-white/10 px-3 py-1 text-sm font-medium backdrop-blur">Since 2013 • Free estimates • Upfront pricing</p>
-            <h1 class="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-              Trusted plumbing service for homes across Clovis and the Central Valley.
-            </h1>
-            <p class="mt-6 text-lg leading-8 text-slate-100 sm:text-xl">
-              From emergency repairs to full remodels, our licensed team provides dependable plumbing service with honest communication and workmanship you can count on.
-            </p>
+        <div class="relative mx-auto grid max-w-7xl gap-10 px-4 py-20 sm:px-6 lg:grid-cols-[1.12fr_0.88fr] lg:px-8 lg:py-28">
+          <div class="max-w-2xl">
+            <p class="mb-4 inline-flex rounded-full border border-white/20 bg-white/10 px-3 py-1 text-sm font-medium backdrop-blur">Over 20 years of trusted local service</p>
+            <h1 class="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">Reliable plumbing for homes and businesses in Santa Margarita.</h1>
+            <p class="mt-6 text-lg leading-8 text-slate-100 sm:text-xl">From urgent repairs to full remodels, our team delivers fast, professional plumbing solutions with honest pricing and dependable workmanship.</p>
             <div class="mt-8 flex flex-col gap-3 sm:flex-row">
-              <a href="tel:+15599400890" class="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-base font-semibold text-brand-navy transition hover:bg-slate-100">
-                Call Now: (559) 940-0890
-              </a>
-              <a href="#contact" class="inline-flex items-center justify-center rounded-full border border-white/40 bg-white/10 px-6 py-3 text-base font-semibold text-white transition hover:bg-white/20">
-                Request a Free Quote
-              </a>
+              <a href="tel:+18052157296" class="inline-flex items-center justify-center rounded-full bg-brand-red px-6 py-3 text-base font-semibold text-white transition hover:bg-red-700">Call Now: (805) 215-7296</a>
+              <a href="#contact" class="inline-flex items-center justify-center rounded-full border border-white/40 bg-white/10 px-6 py-3 text-base font-semibold text-white transition hover:bg-white/20">Request a Free Quote</a>
+            </div>
+            <div class="mt-8 flex items-center gap-3 rounded-2xl border border-white/20 bg-white/10 px-4 py-3 backdrop-blur">
+              <span class="text-2xl font-semibold text-white">★★★★★</span>
+              <span class="text-sm text-slate-100">5/5 from families and businesses we've served</span>
             </div>
           </div>
-          <div class="fade-in rounded-3xl border border-white/20 bg-white/10 p-6 shadow-soft backdrop-blur sm:p-8">
-            <h2 class="text-2xl font-semibold">Why homeowners choose us</h2>
+          <div class="rounded-3xl border border-white/20 bg-white/10 p-6 shadow-soft backdrop-blur sm:p-8">
+            <h2 class="text-2xl font-semibold">Why customers trust us</h2>
             <ul class="mt-6 space-y-4 text-sm text-slate-100">
-              <li class="flex gap-3"><span class="mt-1 text-white">●</span><span>Licensed and insured residential plumbing specialists.</span></li>
-              <li class="flex gap-3"><span class="mt-1 text-white">●</span><span>Family-owned business with a reputation for dependable service.</span></li>
-              <li class="flex gap-3"><span class="mt-1 text-white">●</span><span>One-year labor warranty on completed work.</span></li>
-              <li class="flex gap-3"><span class="mt-1 text-white">●</span><span>Fast, honest service from Clovis to Fresno, Sanger and beyond.</span></li>
+              <li class="flex gap-3"><span class="mt-1 text-white">●</span><span>24/7 emergency response for urgent plumbing issues.</span></li>
+              <li class="flex gap-3"><span class="mt-1 text-white">●</span><span>Commercial and residential service with careful workmanship.</span></li>
+              <li class="flex gap-3"><span class="mt-1 text-white">●</span><span>Family-owned business serving Santa Margarita since 2006.</span></li>
+              <li class="flex gap-3"><span class="mt-1 text-white">●</span><span>Clear estimates and no surprises on the final bill.</span></li>
             </ul>
           </div>
         </div>
@@ -138,75 +107,100 @@
 
       <section class="border-b border-slate-200 bg-slate-50">
         <div class="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-4 px-4 py-5 text-sm font-semibold text-slate-700 sm:px-6 lg:px-8">
-          <span class="rounded-full bg-white px-4 py-2 shadow-sm">Licensed & Insured</span>
-          <span class="rounded-full bg-white px-4 py-2 shadow-sm">Family Owned</span>
-          <span class="rounded-full bg-white px-4 py-2 shadow-sm">Free Estimates</span>
-          <span class="rounded-full bg-white px-4 py-2 shadow-sm">Upfront Pricing</span>
-          <span class="rounded-full bg-white px-4 py-2 shadow-sm">1-Year Labor Warranty</span>
+          <span class="rounded-full bg-white px-4 py-2 shadow-sm border-l-4 border-brand-teal">24/7 Emergency</span>
+          <span class="rounded-full bg-white px-4 py-2 shadow-sm border-l-4 border-brand-teal">Family Owned</span>
+          <span class="rounded-full bg-white px-4 py-2 shadow-sm border-l-4 border-brand-teal">Free Estimates</span>
+          <span class="rounded-full bg-white px-4 py-2 shadow-sm border-l-4 border-brand-teal">Licensed & Insured</span>
+          <span class="rounded-full bg-white px-4 py-2 shadow-sm border-l-4 border-brand-teal">Over 20 Years</span>
         </div>
       </section>
 
       <section id="services" class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
-        <div class="max-w-2xl">
-          <p class="text-sm font-semibold uppercase tracking-[0.25em] text-brand-navy">Our Services</p>
-          <h2 class="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Complete plumbing solutions for repairs, replacements, and upgrades.</h2>
-          <p class="mt-4 text-lg text-slate-600">We handle the everyday issues and the larger projects with professionalism, clear communication, and lasting results.</p>
+        <div class="max-w-3xl">
+          <p class="text-sm font-semibold uppercase tracking-[0.25em] text-brand-teal">Core Services</p>
+          <h2 class="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Complete plumbing care for everyday problems and major projects.</h2>
+          <p class="mt-4 text-lg text-slate-600">Whether you need rapid repairs, new construction plumbing, or a full remodel, our team brings the experience and care needed to get the job done right.</p>
         </div>
         <div class="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-          <article class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-soft">
-            <h3 class="text-xl font-semibold text-slate-900">Plumbing Repairs</h3>
-            <p class="mt-3 text-slate-600">Fast response for leaks, broken fixtures, and urgent plumbing issues around your home.</p>
+          <article class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm card-glow">
+            <h3 class="text-xl font-semibold text-slate-900">Residential & Commercial Service</h3>
+            <p class="mt-3 text-slate-600">Reliable repairs and maintenance for homes, businesses, and multi-use properties.</p>
           </article>
-          <article class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-soft">
-            <h3 class="text-xl font-semibold text-slate-900">Water Heater Installation & Repair</h3>
-            <p class="mt-3 text-slate-600">Reliable service for standard and tankless water heaters, including repair and replacement options.</p>
+          <article class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm card-glow">
+            <h3 class="text-xl font-semibold text-slate-900">New Construction Plumbing</h3>
+            <p class="mt-3 text-slate-600">Expert installation support for new builds and renovation projects from the ground up.</p>
           </article>
-          <article class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-soft">
-            <h3 class="text-xl font-semibold text-slate-900">Drain & Sewer Services</h3>
-            <p class="mt-3 text-slate-600">Clogged drains, sewer line concerns, and water line repair handled with care and precision.</p>
+          <article class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm card-glow">
+            <h3 class="text-xl font-semibold text-slate-900">Tankless Water Heater Conversion</h3>
+            <p class="mt-3 text-slate-600">Upgrade to efficient tankless systems with custom design and clean installation.</p>
           </article>
-          <article class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-soft">
-            <h3 class="text-xl font-semibold text-slate-900">Gas Line Installation</h3>
-            <p class="mt-3 text-slate-600">Safe and dependable gas line installation for appliances and upgrades.</p>
+          <article class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm card-glow">
+            <h3 class="text-xl font-semibold text-slate-900">Water Heater Replacement</h3>
+            <p class="mt-3 text-slate-600">Fast replacement of failing units with long-lasting options tailored to your needs.</p>
           </article>
-          <article class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-soft">
-            <h3 class="text-xl font-semibold text-slate-900">Repiping & Fixture Installation</h3>
-            <p class="mt-3 text-slate-600">Modern replacements and fixture upgrades for kitchens, bathrooms, and remodel projects.</p>
+          <article class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm card-glow">
+            <h3 class="text-xl font-semibold text-slate-900">Kitchen & Bath Remodels</h3>
+            <p class="mt-3 text-slate-600">Beautify and improve your kitchen or bath with expert plumbing integration.</p>
           </article>
-          <article class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-soft">
-            <h3 class="text-xl font-semibold text-slate-900">Water Filtration & Remodeling</h3>
-            <p class="mt-3 text-slate-600">Improve water quality and support remodels with thoughtful plumbing planning and installation.</p>
+          <article class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm card-glow">
+            <h3 class="text-xl font-semibold text-slate-900">Repiping & Gas Line Service</h3>
+            <p class="mt-3 text-slate-600">Complete repiping and gas line service for reliability, safety, and future upgrades.</p>
           </article>
         </div>
       </section>
 
       <section class="bg-slate-900 py-20 text-white">
-        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div class="max-w-3xl">
-            <p class="text-sm font-semibold uppercase tracking-[0.25em] text-slate-300">Why Choose Us</p>
-            <h2 class="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">Straightforward service from a team that treats your home like its own.</h2>
+        <div class="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-[0.95fr_1.05fr] lg:px-8 lg:items-center">
+          <div>
+            <img src="/images/team-work.jpg" alt="Central Coast Plumbing Services team performing professional plumbing service" class="h-80 w-full rounded-3xl object-cover" />
           </div>
-          <div class="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
-            <div class="rounded-3xl border border-white/10 bg-white/10 p-6"><h3 class="text-xl font-semibold">Friendly experts</h3><p class="mt-3 text-slate-300">We show up on time, explain the work clearly, and respect your space.</p></div>
-            <div class="rounded-3xl border border-white/10 bg-white/10 p-6"><h3 class="text-xl font-semibold">Transparent pricing</h3><p class="mt-3 text-slate-300">You get upfront pricing and a full explanation of the recommended solution.</p></div>
-            <div class="rounded-3xl border border-white/10 bg-white/10 p-6"><h3 class="text-xl font-semibold">Local roots</h3><p class="mt-3 text-slate-300">We’ve been serving clients in the Central Valley since 2013 with pride.</p></div>
-            <div class="rounded-3xl border border-white/10 bg-white/10 p-6"><h3 class="text-xl font-semibold">Reliable warranty</h3><p class="mt-3 text-slate-300">Our one-year labor warranty offers extra confidence after the work is complete.</p></div>
+          <div>
+            <p class="text-sm font-semibold uppercase tracking-[0.25em] text-slate-300">Built for quality</p>
+            <h2 class="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">A polished, professional experience from first call to final inspection.</h2>
+            <p class="mt-6 text-lg leading-8 text-slate-300">We believe great plumbing work should feel calm, clear, and trustworthy. That means fast communication, careful cleanup, and workmanship you can count on for years.</p>
+            <a href="services.html" class="mt-8 inline-flex rounded-full bg-brand-coral px-5 py-3 font-semibold text-white transition hover:bg-orange-600">View Full Service Details</a>
           </div>
         </div>
       </section>
 
-      <section id="about" class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
-        <div class="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+      <section class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+        <div class="grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
           <div>
-            <p class="text-sm font-semibold uppercase tracking-[0.25em] text-brand-navy">About Us</p>
-            <h2 class="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">A family-owned plumbing company built around trust and quality workmanship.</h2>
-            <p class="mt-6 text-lg leading-8 text-slate-600">Clovis Plumbing Services has been helping homeowners throughout Clovis, Fresno, Sanger, and surrounding communities since 2013. We combine the responsiveness of a local company with the expertise required for both emergency repairs and complete plumbing upgrades.</p>
-            <p class="mt-4 text-lg leading-8 text-slate-600">Whether you need a quick fix, a new water heater, or a full bathroom or kitchen plumbing remodel, we are here to provide dependable service and clear answers every step of the way.</p>
+            <p class="text-sm font-semibold uppercase tracking-[0.25em] text-brand-teal">About Us</p>
+            <h2 class="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">A family-run business with deep roots and a strong local reputation.</h2>
+            <p class="mt-6 text-lg leading-8 text-slate-600">Central Coast Plumbing Services has been proudly serving Santa Margarita and neighboring communities since 2006. We combine the responsiveness of a local company with the experience needed for both routine service and complex plumbing installations.</p>
+            <p class="mt-4 text-lg leading-8 text-slate-600">Our focus is simple: solve problems quickly, communicate clearly, and leave every job finished with care.</p>
           </div>
-          <div class="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
+          <div class="rounded-3xl border border-slate-200 bg-brand-light p-8 shadow-sm">
             <h3 class="text-2xl font-semibold text-slate-900">Need help now?</h3>
-            <p class="mt-4 text-slate-600">Reach out for service, a free estimate, or emergency plumbing support in the Central Valley.</p>
-            <a href="tel:+15599400890" class="mt-6 inline-flex rounded-full bg-brand-navy px-5 py-3 font-semibold text-white transition hover:bg-slate-800">Call (559) 940-0890</a>
+            <p class="mt-4 text-slate-600">Call for emergency service, a free estimate, or a consultation for your next plumbing project.</p>
+            <a href="tel:+18052157296" class="mt-6 inline-flex rounded-full bg-brand-teal px-5 py-3 font-semibold text-white transition hover:bg-teal-700">Call (805) 215-7296</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-50 py-20">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="max-w-2xl">
+            <p class="text-sm font-semibold uppercase tracking-[0.25em] text-brand-teal">Customer Reviews</p>
+            <h2 class="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Five-star service from customers who value honesty and reliability.</h2>
+          </div>
+          <div class="mt-12 grid gap-6 lg:grid-cols-3">
+            <blockquote class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
+              <p class="text-2xl text-amber-500">★★★★★</p>
+              <p class="mt-4 text-slate-700">“Fast response, excellent workmanship, and they explained everything clearly. We were very impressed.”</p>
+              <footer class="mt-6 font-semibold text-slate-900">— Melissa T.</footer>
+            </blockquote>
+            <blockquote class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
+              <p class="text-2xl text-amber-500">★★★★★</p>
+              <p class="mt-4 text-slate-700">“They handled a full repipe with professionalism and respect for our home. Highly recommended.”</p>
+              <footer class="mt-6 font-semibold text-slate-900">— Daniel P.</footer>
+            </blockquote>
+            <blockquote class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
+              <p class="text-2xl text-amber-500">★★★★★</p>
+              <p class="mt-4 text-slate-700">“Great emergency service and fair pricing. We’ll call them again for any plumbing needs.”</p>
+              <footer class="mt-6 font-semibold text-slate-900">— Carla S.</footer>
+            </blockquote>
           </div>
         </div>
       </section>
@@ -214,57 +208,60 @@
       <section class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
         <div class="grid gap-10 rounded-3xl border border-slate-200 bg-white p-8 shadow-sm lg:grid-cols-[0.95fr_1.05fr] lg:p-12">
           <div>
-            <p class="text-sm font-semibold uppercase tracking-[0.25em] text-brand-navy">Service Area</p>
-            <h2 class="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Serving Clovis, Fresno, Sanger and neighboring Central Valley communities.</h2>
-            <p class="mt-6 text-lg leading-8 text-slate-600">We proudly serve homeowners throughout the greater Central Valley, including Clovis, Fresno, Sanger, and surrounding neighborhoods.</p>
+            <p class="text-sm font-semibold uppercase tracking-[0.25em] text-brand-teal">Service Area</p>
+            <h2 class="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Proudly serving Santa Margarita and nearby Central Coast communities.</h2>
+            <p class="mt-6 text-lg leading-8 text-slate-600">We provide plumbing service for homeowners, business owners, and builders throughout the region with reliable support and quick response times.</p>
             <div class="mt-8 flex flex-wrap gap-3">
-              <span class="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">Clovis</span>
-              <span class="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">Fresno</span>
-              <span class="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">Sanger</span>
-              <span class="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">Central Valley</span>
+              <span class="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">Santa Margarita</span>
+              <span class="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">San Luis Obispo County</span>
+              <span class="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">Nearby Coastal Communities</span>
             </div>
           </div>
           <div class="rounded-3xl bg-slate-900 p-8 text-white">
-            <h3 class="text-2xl font-semibold">Contact us today</h3>
-            <p class="mt-3 text-slate-300">Call or email to schedule a visit, request a quote, or discuss your plumbing needs.</p>
+            <h3 class="text-2xl font-semibold">Get in touch</h3>
+            <p class="mt-3 text-slate-300">Call or email for emergency support, estimates, or to schedule your next service visit.</p>
             <div class="mt-6 space-y-4 text-sm">
-              <p><strong>Phone:</strong> <a href="tel:+15599400890" class="text-slate-200">(559) 940-0890</a></p>
-              <p><strong>Email:</strong> <a href="mailto:tod@clovisplumbingservices.com" class="text-slate-200">tod@clovisplumbingservices.com</a></p>
-              <p><strong>Service areas:</strong> Clovis, Fresno, Sanger, and surrounding Central Valley communities</p>
+              <p><strong>Phone:</strong> <a href="tel:+18052157296" class="text-slate-200">(805) 215-7296</a></p>
+              <p><strong>Email:</strong> <a href="mailto:ccps.harrington@aol.com" class="text-slate-200">ccps.harrington@aol.com</a></p>
+              <p><strong>Service area:</strong> Santa Margarita and surrounding Central Coast communities</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="contact" class="bg-slate-900 py-20 text-white">
+      <section class="mx-auto max-w-7xl px-4 pb-20 sm:px-6 lg:px-8">
+        <div class="overflow-hidden rounded-3xl border border-slate-200 shadow-sm">
+          <div class="bg-slate-900 px-6 py-5 text-white">
+            <h3 class="text-2xl font-semibold">Find us on the map</h3>
+            <p class="mt-2 text-sm text-slate-300">Serving Santa Margarita and nearby communities with fast response plumbing service.</p>
+          </div>
+          <iframe
+            src="https://www.google.com/maps?q=Santa%20Margarita%2C%20CA%2093453&z=11&output=embed"
+            title="Map of Santa Margarita, CA"
+            class="h-[360px] w-full border-0"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+
+      <section id="contact" class="bg-brand-teal py-20 text-white">
         <div class="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
           <div>
-            <p class="text-sm font-semibold uppercase tracking-[0.25em] text-slate-300">Contact</p>
-            <h2 class="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">Book a visit or request a quote today.</h2>
-            <p class="mt-6 text-lg leading-8 text-slate-300">We’re ready to help with repairs, replacements, and plumbing upgrades. Send a quick note and we’ll get back to you promptly.</p>
+            <p class="text-sm font-semibold uppercase tracking-[0.25em] text-teal-100">Contact</p>
+            <h2 class="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">Ready to schedule service?</h2>
+            <p class="mt-6 text-lg leading-8 text-slate-300">Whether it’s an emergency or a planned upgrade, we’re ready to help with fast communication and dependable plumbing work.</p>
           </div>
-          <form id="contactForm" class="rounded-3xl bg-white p-6 text-slate-800 shadow-soft">
+          <form class="rounded-3xl bg-white p-6 text-slate-800 shadow-soft">
             <div class="grid gap-4 sm:grid-cols-2">
-              <label class="block text-sm font-medium text-slate-700">
-                Name
-                <input name="name" required class="mt-2 w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none ring-0 focus:border-brand-navy" />
-              </label>
-              <label class="block text-sm font-medium text-slate-700">
-                Phone
-                <input name="phone" required class="mt-2 w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none ring-0 focus:border-brand-navy" />
-              </label>
-              <label class="block text-sm font-medium text-slate-700 sm:col-span-2">
-                Email
-                <input type="email" name="email" required class="mt-2 w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none ring-0 focus:border-brand-navy" />
-              </label>
-              <label class="block text-sm font-medium text-slate-700 sm:col-span-2">
-                Message
-                <textarea name="message" rows="4" required class="mt-2 w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none ring-0 focus:border-brand-navy"></textarea>
-              </label>
+              <label class="block text-sm font-medium text-slate-700">Name<input name="name" required class="mt-2 w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none focus:border-brand-teal" /></label>
+              <label class="block text-sm font-medium text-slate-700">Phone<input name="phone" required class="mt-2 w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none focus:border-brand-teal" /></label>
+              <label class="block text-sm font-medium text-slate-700 sm:col-span-2">Email<input type="email" name="email" required class="mt-2 w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none focus:border-brand-teal" /></label>
+              <label class="block text-sm font-medium text-slate-700 sm:col-span-2">Message<textarea name="message" rows="4" required class="mt-2 w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none focus:border-brand-teal"></textarea></label>
             </div>
             <div class="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-              <button type="submit" class="rounded-full bg-brand-navy px-6 py-3 font-semibold text-white transition hover:bg-slate-800">Send Request</button>
-              <p id="formMessage" class="text-sm text-slate-500">We’ll contact you shortly.</p>
+              <button type="submit" class="rounded-full bg-brand-coral px-6 py-3 font-semibold text-white transition hover:bg-orange-600">Send Request</button>
+              <p class="text-sm text-slate-500">We’ll get back to you quickly.</p>
             </div>
           </form>
         </div>
@@ -274,42 +271,26 @@
     <footer class="border-t border-slate-200 bg-white py-8">
       <div class="mx-auto flex max-w-7xl flex-col gap-6 px-4 text-sm text-slate-600 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
         <div>
-          <p class="font-semibold text-slate-900">Clovis Plumbing Services</p>
-          <p class="mt-1">Serving Clovis, Fresno, Sanger and surrounding Central Valley communities</p>
+          <p class="font-semibold text-slate-900">Central Coast Plumbing Services</p>
+          <p class="mt-1">Santa Margarita, CA • (805) 215-7296</p>
         </div>
         <div class="flex flex-wrap gap-4">
-          <a href="#services" class="transition hover:text-brand-navy">Services</a>
-          <a href="#about" class="transition hover:text-brand-navy">About</a>
-          <a href="#contact" class="transition hover:text-brand-navy">Contact</a>
+          <a href="index.html#services" class="transition hover:text-brand-blue">Services</a>
+          <a href="services.html" class="transition hover:text-brand-blue">Detailed Services</a>
+          <a href="index.html#contact" class="transition hover:text-brand-blue">Contact</a>
         </div>
-        <div>© <span id="year"></span> Clovis Plumbing Services. All rights reserved.</div>
+        <div>© <span id="year"></span> Central Coast Plumbing Services. All rights reserved.</div>
       </div>
     </footer>
 
-    <a href="tel:+15599400890" class="fixed bottom-4 left-1/2 z-40 inline-flex -translate-x-1/2 rounded-full bg-brand-navy px-5 py-3 font-semibold text-white shadow-soft md:hidden">
-      Call Now
-    </a>
+    <a href="tel:+18052157296" class="fixed bottom-4 left-1/2 z-40 inline-flex -translate-x-1/2 rounded-full bg-brand-coral px-5 py-3 font-semibold text-white shadow-soft md:hidden">Call Now</a>
 
     <script>
       const menuBtn = document.getElementById('menuBtn');
       const mobileMenu = document.getElementById('mobileMenu');
-      menuBtn?.addEventListener('click', () => {
-        mobileMenu.classList.toggle('hidden');
-      });
-
-      document.querySelectorAll('a[href^="#"]').forEach((link) => {
-        link.addEventListener('click', () => mobileMenu?.classList.add('hidden'));
-      });
-
+      menuBtn?.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+      document.querySelectorAll('a[href^="#"]').forEach((link) => link.addEventListener('click', () => mobileMenu?.classList.add('hidden')));
       document.getElementById('year').textContent = new Date().getFullYear();
-
-      const form = document.getElementById('contactForm');
-      const formMessage = document.getElementById('formMessage');
-      form?.addEventListener('submit', (event) => {
-        event.preventDefault();
-        formMessage.textContent = 'Thanks! We’ve received your request and will reach out soon.';
-        form.reset();
-      });
     </script>
   </body>
 </html>
